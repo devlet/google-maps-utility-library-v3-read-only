@@ -1554,7 +1554,7 @@ Util.registerSR = function(wkidt, wktOrSR) {
         break;
       // more implementations here.
       default:
-        throw new Error(prj + "  not supported");
+        //throw new Error(prj + "  not supported");
       }
       if (sr) {
         spatialReferences_['' + wkidt] = sr;
